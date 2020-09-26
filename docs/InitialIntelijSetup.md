@@ -21,20 +21,19 @@ This document is for setting up the protocol buffer plugins, protoc compiler and
       }
     }  
 
-4.  Apply below dependencies in dependencies section. Version needs to be updates:
+4.  Apply below dependencies in dependencies section. Version needs to be updated:
        ```groovy
        compile 'com.google.protobuf:protobuf-java:3.13.0'
+       compile 'com.google.protobuf:protobuf-java-util:3.13.0'
        ```
       
 4.  Apply plugins. Copy the below plugins to the build.gradle:
     ```groovy
     apply plugin: 'com.google.protobuf'
-    ```
-    ```groovy
     apply plugin: 'idea'
     ```
        
-5. Add below configurations, Version needs to be updates:
+5. Add below configurations, Version needs to be updated:
     ```groovy
        protobuf {
          // Configure the protoc executable
