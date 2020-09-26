@@ -43,7 +43,7 @@ This document is for setting up the protocol buffer plugins, protoc compiler and
          }
        }
    
-6. Enable the below setting is it is not already done:
+6. Enable the below setting if it is not already done:
     ```
    Settings -> Build, Execution, Deployment
      -> Build Tools -> Gradle -> Runner
